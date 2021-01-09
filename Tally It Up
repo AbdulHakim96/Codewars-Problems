@@ -1,0 +1,11 @@
+const scoreToTally  = score =>{
+  let str ='';
+  for(let i =score; 0<i; i = i-5){
+    if(i>=5) str = str+'e <br>';
+    if(i===4) str = str+ 'd';
+      if(i === 3) str += 'c';
+      if(i === 2) str += 'b';
+      if(i === 1) str += 'a';
+  }
+  return str;
+};
